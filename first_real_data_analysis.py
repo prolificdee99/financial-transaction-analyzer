@@ -33,7 +33,7 @@ df['WEEK'] = df['TRAN_DATE'].dt.isocalendar().week
 
 print(f"Date range: {df['TRAN_DATE'].min()} to {df['TRAN_DATE'].max()}")
 print(f"Total transactions: {len(df)}")
-print(f"Total amount: {df['TRAN_AMT'].sum():,.2f}")
+print(f"Total amount: GHS {df['TRAN_AMT'].sum():,.2f}")
 
 print("=== SUMMARY STATISTICS ===")
 print(df[['TRAN_AMT']].describe())
