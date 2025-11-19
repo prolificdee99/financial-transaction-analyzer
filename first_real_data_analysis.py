@@ -87,7 +87,7 @@ axes[0,1].set_title('Top 10 Transaction Categories (by Amount)')
 axes[0,1].set_xlabel('Total Amount')
 
 for i, v in enumerate(category_amounts.values):
-    axes[0,1].text(v + 1000, i, f'${v:,.0f}', va='center')
+    axes[0,1].text(v + 1000, i, f'GHS{v:,.0f}', va='center')
 
 # --- PLOT 3: Daily Transaction Volume ---
 # Count transactions per day
