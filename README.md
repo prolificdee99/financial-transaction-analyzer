@@ -34,10 +34,10 @@ This project demonstrates end-to-end data analysis skills by processing real-wor
 - Data aggregation and grouping
 - Trend identification
 
-- 
+
 ## Getting Started
 
-1. **Clone the repository**
+## **Clone the repository**
 git clone https://github.com/prolificdee99/financial-transaction-analyzer
 cd financial-transaction-analyzer
 
